@@ -1,61 +1,49 @@
-# ⚡ QA-to-Dev Crash Course: From Test Scripts to Full-Stack
-### *Bridging the gap between test automation and real development*
-
-> **Inspired by real struggles in GenAI test automation adoption**  
-> *"After seeing QA teams struggle with debugging AI-generated Playwright/Selenium code, this hands-on program builds foundational dev skills - because understanding the DOM shouldn't require magic."*
+# 🚀 QA-to-Developer Crash Course (6 Weeks)
+**Build a Local Defect Tracking System**  
+*For QA professionals learning full-stack development offline*
 
 ---
 
-## 🛠️ **Course Roadmap** (36 Hours / 6 Weekends)
+## 📅 Weekly Schedule (6 Weeks | Sat+Sun = 6h/Week)
 
-| Weekend | Day       | 🧠 Core Concepts                 | 🛠️ Hands-On Project               | 🎯 GenAI-Ready Skill              |
-|---------|-----------|----------------------------------|-----------------------------------|----------------------------------|
-| **1**   | **Sat**   | DOM Deep Dive (Nodes, Traversal) | Chrome Extension: Selector Debugger | Fix AI-generated locators        |
-|         | **Sun**   | Event Listeners, Storage API     | Test Script Converter (UI)        | Modify Playwright/Selenium output|
-| **2**   | **Sat**   | React Components, JSX            | Test Report Visualizer            | Customize AI test UIs            |
-|         | **Sun**   | Hooks, API Fetching              | Flaky Test Analyzer (Frontend)    | Diagnose AI test instability     |
-| **3**   | **Sat**   | Node.js HTTP Server, Routes      | Mock API Server for Testing       | Debug API test sequences         |
-|         | **Sun**   | Express Middleware               | Test Execution Engine             | Extend AI test runners           |
-| **4**   | **Sat**   | MySQL Schemas, Joins             | Test Result Storage System        | Analyze flaky test patterns      |
-|         | **Sun**   | Sequelize ORM                    | AI Training Data Generator        | Create datasets for test models  |
-| **5**   | **Sat**   | Authentication (JWT)             | Role-Based Test Access Portal     | Secure AI testing tools          |
-|         | **Sun**   | WebSockets                       | Real-Time Test Monitor            | Stream AI test execution         |
-| **6**   | **Sat**   | Docker Basics                    | Containerized Test Environment    | Ship AI test tools               |
-|         | **Sun**   | CI/CD Pipelines                  | **Self-Hosted Test Platform** 🚀  | Own your automation stack        |
+### **Week 1: HTML/CSS/JavaScript Fundamentals**
+| Day   | Topics & Tasks                                                                 |
+|-------|-------------------------------------------------------------------------------|
+| **Sat** | - HTML5 structure, tables, forms<br>- CSS Grid/Flexbox layout<br>- Build: Static defect log page |
+| **Sun** | - JavaScript DOM manipulation<br>- LocalStorage API<br>- Build: Interactive defect tracker |
 
----
+### **Week 2-3: React.js Frontend**
+| Week | Day   | Topics & Tasks                                                                 |
+|------|-------|-------------------------------------------------------------------------------|
+| **2** | **Sat** | - React components, props<br>- Create DefectList component<br>- Render defects from array |
+|      | **Sun** | - useState/useEffect<br>- Add defect form<br>- Filter defects by status       |
+| **3** | **Sat** | - React Router setup<br>- Defect details page<br>- Navigation setup           |
+|      | **Sun** | - Context API<br>- Role-based views (QA/Dev)<br>- Local authentication mock   |
 
-## 🏆 **What You'll Build**
-1. **DOM Inspector Tool**  
-   - Debug/correct AI-generated selectors  
-   - *Tech:* Chrome API + React  
+### **Week 4-5: Node.js Backend**
+| Week | Day   | Topics & Tasks                                                                 |
+|------|-------|-------------------------------------------------------------------------------|
+| **4** | **Sat** | - Express.js server setup<br>- REST API routes (GET/POST)                     |
+|      | **Sun** | - Middleware (body-parser)<br>- Connect frontend to API<br>- CRUD operations  |
+| **5** | **Sat** | - Error handling<br>- File system storage<br>- Logging system                 |
+|      | **Sun** | - Pagination<br>- Search endpoints<br>- API documentation                     |
 
-2. **Test Script Translator**  
-   - Convert between testing frameworks  
-   - *Tech:* Node.js + Code ASTs  
-
-3. **Flaky Test Detective**  
-   - Correlate failures with DOM snapshots  
-   - *Tech:* MySQL + Puppeteer  
+### **Week 6: MySQL + Deployment**
+| Day   | Topics & Tasks                                                                 |
+|-------|-------------------------------------------------------------------------------|
+| **Sat** | - MySQL setup (XAMPP/WAMP)<br>- Create defects table<br>- Node.js + MySQL integration |
+| **Sun** | - Docker basics<br>- Containerize app<br>- Local network deployment           |
 
 ---
 
-## 🎯 **Key Takeaways**
-**For Your Daily Work:**
-✅ Debug AI-generated test code like a developer  
-✅ Build adapters between testing tools and AI systems  
-✅ Understand the full stack behind test automation  
-
-**For Your Career:**
-📁 **Portfolio Pieces** - From debug tools to full platforms  
-🚀 **SDET/DevOps Pathway** - Skills that open new roles  
-💡 **AI-Testing Hybrid Skills** - Stand out in the GenAI era  
-
----
-
-## 🚦 **Next Steps**
-1. **Immediate Action:**
-   ```bash
-   # Starter project for DOM debugging:
-   git clone https://github.com/your-repo/ai-test-debugger
-   cd ai-test-debugger && npm install
+## 🛠️ Final Project: Local Defect Tracker
+```bash
+project-root/
+├── frontend/       # React.js app
+│   ├── src/
+│   │   ├── components/DefectList.js
+│   │   └── contexts/AuthContext.js
+├── backend/        # Node.js API
+│   ├── routes/defects.js
+│   └── database.js 
+└── docker-compose.yml
