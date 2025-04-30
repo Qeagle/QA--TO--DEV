@@ -1,5 +1,5 @@
-# Full-Stack QA Transition Course  
-_A 6-weekend crash course for manual/automation testers with no coding experience_
+# MERN-Stack Crash Course for QA  
+_A 6-weekend crash course for automation testers with no development experience_
 
 ---
 
